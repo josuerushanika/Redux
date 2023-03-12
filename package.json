@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/josuerushanika/Redux#readme",
   "dependencies": {
+    "logger": "^0.0.1",
+    "reduce": "^1.0.2",
     "redux": "^4.2.1"
   }
 }
