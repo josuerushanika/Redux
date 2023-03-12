@@ -1,5 +1,6 @@
 const redux = require('redux')
 const createStore = redux.createStore
+const combineReducers = redux.combineReducers
 
 // console.log('From index.js')
  const BUY_CAKE = 'BUY_CAKE'
