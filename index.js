@@ -3,7 +3,7 @@ const createStore = redux.createStore
 
 // console.log('From index.js')
  const BUY_CAKE = 'BUY_CAKE'
-
+ const BUY_ICECREAM ='BUY_ICECREAM'
 
 //-Action is an obect with type property
 //Action creator is a f(x) that return an action 
@@ -13,6 +13,13 @@ function buyCake() {
         info: 'First redux action'
     }
 }
+
+function buyIceCream() {
+    return{
+        type: BUY_ICECREAM,
+    }
+}
+
 
 
 const initialState = {
